@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+   background-image: url("https://i1.faceprep.in/prograd-junior/shady-bg.png");
+   color: white;
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+}
+
+img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 5%;
+height: 100%;
+background-size: cover;
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 800%;
+    color: #E76E43;
+}
+
+p{
+    margin-top: -4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 150%;
+}
+
+button {
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    background-color:  #E76E43;
+    color: white;
+    font-size: x-large;
+    border: none;
+    box-shadow: -15px -10px 50px rgba(0, 0, 0, 0.25), inset 5px -5px 5px rgba(0, 0, 0, 0.25), inset -3px 3px 5px rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+width: 250px;
+cursor: pointer;
+}

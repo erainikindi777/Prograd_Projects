@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    touch-action: none;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+   
+    
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.background {
+    position: relative;
+    background-image: url("./assets/background.svg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+     overflow:hidden;
+}
+
+#game-buttons {
+    flex-direction: column;
+    /* height: 100vh; */
+}
+
+/* #game-buttons h1 {
+    margin: 20px auto;
+    font-size: 3em;
+    color: grey;
+    text-align: center;
+} */
+
+#name-image {
+    width: 80%;
+    height: auto;
+}
+
+.button {
+    border-radius: 4px;
+    cursor: pointer;
+    width: 130px;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#play-now {
+    background-color: #BB6BD9;
+    color: white;
+}
+
+.instruction-button {
+    background-color: #FFDC4B;
+    color: black;
+}
+
+.modal {
+    flex-direction: column;
+    background-color: #BB6BD9;
+    border-radius: 10px;
+    max-width: 450px;
+    text-align: center;
+    margin: 0 10px;
+    color: white;
+}
+
+#instructions {
+    display: none;
+}
+
+.modal * {
+    margin: 20px;
+}
+
+/* #instructions h2 {
+    color: white;
+} */

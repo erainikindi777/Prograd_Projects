@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    background-image: url("https://wallpaperaccess.com/full/1761719.jpg");
+   color: white;
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   height: 100%;
+   background-size: cover
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 800%;
+    color: white;
+    margin: 10%;
+    text-shadow: 0px 4px 4px #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pumpkins {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#ghost {
+    position: absolute;
+  right: 100px;
+  top: 100px;
+  z-index: -1;
+}
+
+#ghost2 {
+    position: absolute;
+  left: 10px;
+  top: 180px;
+  z-index: 0;
+}
+
+#ghost3 {
+    position: absolute;
+  left: 100px;
+  top: 0px;
+  z-index: 1;
+}
+
+p{
+    margin-top: -4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 150%;
+}

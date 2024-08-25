@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav>div {
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+}
+
+#logo {
+    background-color: grey;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+header {
+    height: 420px;
+    background-color: grey;
+    color: rgb(50, 50, 51);
+}
+
+header>h1 {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.section>h2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.section>p {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 280px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.div-container {
+    display: flex;
+}
+
+.div-container>div {
+    margin-top: 40px;
+    height: 60px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 40px;
+
+}
+
+h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#box {
+    margin-top: 40px;
+
+}
+
+#box>div {
+    border: 1px solid black;
+    height: 420px;
+    width: 400px;
+
+}
+
+.image-container {
+    height: 260px;
+    width: 400px;
+    background-color: grey;
+
+}
+
+#box h2 {
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#box p {
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+footer {
+    margin-top: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
